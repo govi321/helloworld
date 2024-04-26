@@ -15,12 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>helloworld</finalName>
-  </build>
-<plugin>
+   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.1</version>
 </plugin>
+  <build>
+    <finalName>helloworld</finalName>
+  </build>
 </project>
